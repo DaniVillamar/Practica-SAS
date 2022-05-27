@@ -1,0 +1,49 @@
+h1 {
+  color: red; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-image: linear-gradient(to right top, #00adf5, #52baf2, #7bc7ef, #9ed4ed, #bfdfec); }
+
+.navegador {
+  text-align: center;
+  font-size: 20px; }
+
+.nav-item {
+  margin-top: 0em;
+  padding: 0.5em; }
+
+.Carrusel {
+  border-image: 0.5em; }
+
+.container {
+  text-align: center;
+  margin: 2em; }
+
+.container p {
+  text-align: justify;
+  margin: 2em;
+  color: black; }
+
+.container-contactanos {
+  text-align: center;
+  margin: 2em; }
+
+.container-contactanos p label {
+  text-align: justify;
+  margin: 2em;
+  color: black; }
+
+h1 {
+  text-align: center;
+  font-size: 15px; }
+
+.card {
+  margin: 1em;
+  padding: 0; }
+
+.card-servicios {
+  display: inline-block; }
