@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
      <!-- Css Bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body class="body">
+<body>
     <!-- Apartado Header -->
     <header>
         <nav class="navegador">
@@ -22,10 +22,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/conoceme.html">Conoceme</a>
+                    <a class="nav-link active" aria-current="page" href="conoceme.html">Conoceme</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
@@ -48,30 +48,21 @@
         </nav>
     </header>
 
-    <main class="main">
-        <div class="Carrusel">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/Carrusel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Carrusel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Carrusel3.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>
-        </div>
+    <main>
+        
+        <div class="container-conoceme">
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="../Img/getPhoto.jpg">
+			<div class="about-text">
+				<h2>Cristian Daniel Villamar Capristo</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Habilidades</button>
+			</div>
+		</div>
+	</section>
     </main>
 
     <div class="container">
@@ -80,7 +71,7 @@
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique inventore expedita repellendus beatae quia vel molestiae laborum eius officia voluptate repudiandae recusandae, officiis dicta doloremque possimus error natus, explicabo sequi.</p>
       </div>
-
+    </div>
 
       <footer>
           <!-- Register buttons -->

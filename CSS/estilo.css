@@ -1,12 +1,9 @@
-h1 {
-  color: red; }
-
 * {
   padding: 0;
   margin: 0; }
 
 body {
-  background-image: linear-gradient(to right top, #00adf5, #52baf2, #7bc7ef, #9ed4ed, #bfdfec); }
+  background-color: #191919; }
 
 .navegador {
   text-align: center;
@@ -20,6 +17,10 @@ body {
   border-image: 0.5em; }
 
 .container {
+  text-align: center;
+  margin: 2em; }
+
+.container-conoceme {
   text-align: center;
   margin: 2em; }
 
@@ -47,3 +48,92 @@ h1 {
 
 .card-servicios {
   display: inline-block; }
+
+.about {
+  width: 100%;
+  padding: 100px;
+  background-color: #191919; }
+
+.about img {
+  height: 100%;
+  width: 430px; }
+
+.about-text {
+  width: 550px; }
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #191919; }
+
+.about-text h2 {
+  color: white;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 20px; }
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize; }
+
+.about-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px; }
+
+button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s; }
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer; }
+
+@media (max-width: 1270px) {
+  .about {
+    grid-template-columns: 1fr; }
+  .about-img {
+    text-align: center;
+    margin-bottom: 30px; }
+  .about-img img {
+    max-width: 100%;
+    width: 700px;
+    height: auto; } }
+
+@media (max-width: 994px) {
+  .container-contactanos {
+    grid-template-columns: 1fr; }
+  .about-img {
+    text-align: center;
+    margin-bottom: 30px; }
+  .about-img img {
+    max-width: 100%;
+    width: 700px;
+    height: auto; } }
+
+@media (max-width: 634px) {
+  .container-contactanos {
+    grid-template-columns: 1fr; }
+  .about-img {
+    text-align: center;
+    margin-bottom: 30px; }
+  .about-img img {
+    max-width: 100%;
+    width: 700px;
+    height: auto; } }
